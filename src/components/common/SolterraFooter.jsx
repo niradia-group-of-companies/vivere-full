@@ -23,7 +23,8 @@ export const SolterraFooter = () => {
         <div className=" w-full flex justify-center lg:justify-between items-start md:items-end flex-col md:flex-row gap-4 lg:gap-0">
           <div className="text-white font-sub max-w-max md:max-w-[300px] lg:max-w-[680px] w-full h-auto inline-block">
             <h3 className="pb-2 lg:pb-3 text-base md:text-lg lg:text-xl font-pluto">
-              A QUALITY <br />DEVELOPMENT
+              A QUALITY <br />
+              DEVELOPMENT
             </h3>
             <p className="hidden md:block text-sm md:text-base font-sub leading-none lg:leading-none">
               Solterra understands the importance of home and prides
@@ -33,9 +34,9 @@ export const SolterraFooter = () => {
               solid construction, and quality finishes.
             </p>
             <p className="block md:hidden text-sm md:text-base whitespace-break-spaces font-sub leading-none lg:leading-none">
-              Solterra understands the importance of home and prides
-              themselves on creating residences that feature exceptional design,
-              solid construction, and quality finishes.
+              Solterra understands the importance of home and prides themselves
+              on creating residences that feature exceptional design, solid
+              construction, and quality finishes.
             </p>
           </div>
           <div className=" self-end md:self-auto pt-10 md:pt-0">

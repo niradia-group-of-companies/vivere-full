@@ -2,7 +2,6 @@ import copy3 from "/img/copy3.svg";
 import ReactVivus from "react-vivus";
 
 function Authentically() {
- 
   return (
     <ReactVivus
       id="copy3"
