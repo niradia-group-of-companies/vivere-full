@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NMQPKWQT");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJJ8FBN2NV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-TJJ8FBN2NV");
+    </script>
+
+    <!-- RYZNAR MEDIA PIXCEL TAG -->
+    <script src="https://up.pixel.ad/assets/up.js?um=1"></script>
+    <script type="text/javascript">
+      cntrUpTag.track("cntrData", "ff2218e35c881a11");
+    </script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta
+      name="description"
+      content="North Guildord's First Residential High-Rise |Discover the essence of enriched living with over 24 thoughtfully curated amenities designed to elevate your lifestyle at Vivere. Each residence is meticulously crafted to embody authentic living, drawing inspiration from the serene and profound Italian way of living."
+    />
+    <meta name="keywords" content="Condominium, Surrey, North Guildford" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script> -->
+    <script>
+      window.addEventListener("load", function () {
+        // Hides spam trap
+        document.getElementById("are_you_simulated").style.display = "none";
+
+        // set the email pattern attribute for input type email fields. it is used for email validation
+        document.querySelectorAll("input[type='email']").forEach(function (el) {
+          el.pattern = "[^@\\s]+@[^@\\s]+\\.[^@\\s]+";
+        });
+
+        // remove required attribute for questions with other option so the main question does not trigger the validation
+        document
+          .querySelectorAll(
+            ".project-question.answers.single.required, .project-question.answers.custom.required"
+          )
+          .forEach(function (question_root) {
+            const qid = question_root.dataset.qid;
+            const other_q = document.querySelector(
+              `#answers_${qid}_other_text`
+            );
+            const input = question_root.querySelector(`#answers_${qid}`);
+
+            if (other_q) {
+              input.required = false;
+            }
+          });
+      });
+
+      // eslint-disable-next-line no-unused-vars
+      function validateOtherQuestions() {
+        const validation_errors = [];
+        let question_text = "the required questions";
+        const question_roots = document.querySelectorAll(
+          ".project-question.answers.single.required, .project-question.answers.custom.required"
+        );
+
+        question_roots.forEach(function (question_root) {
+          const qid = question_root.dataset.qid;
+          const other_q = document.querySelector(`#answers_${qid}_other_text`);
+          const question_label = question_root.querySelector(".question-text");
+          const input = question_root.querySelector(`#answers_${qid}`);
+
+          if (question_label) {
+            question_text = question_label.textContent.replace(" *", "");
+          }
+
+          if (other_q && input) {
+            if (input.value === "" && other_q.value === "") {
+              validation_errors.push(
+                `- Please select at least one option from ${question_text}`
+              );
+            }
+          }
+        });
+
+        return validation_errors;
+      }
+
+      // eslint-disable-next-line no-unused-vars
+      function validateMultipleTypeQuestions() {
+        const validation_errors = [];
+        let question_text = "the required questions";
+        const question_roots = document.querySelectorAll(
+          ".project-question.multiple.required"
+        );
+
+        question_roots.forEach(function (item) {
+          const qid = item.dataset.qid;
+          const other_q = document.querySelector(`#answers_${qid}_other_text`);
+          const checkboxes = item.querySelectorAll(
+            "input[type='checkbox']:checked"
+          );
+          const question = item.querySelector(".question-text");
+
+          if (question) {
+            question_text = question.textContent.replace(" *", "");
+          }
+
+          if (other_q) {
+            if (checkboxes.length < 1 && other_q.value === "") {
+              validation_errors.push(
+                `- Please select at least one option from ${question_text}`
+              );
+            }
+          } else {
+            if (checkboxes.length < 1) {
+              validation_errors.push(
+                `- Please select at least one option from ${question_text}`
+              );
+            }
+          }
+        });
+
+        return validation_errors;
+      }
+
+      // function validateReCaptcha(form) {
+      // If you are hosting this form on your own site and have reCAPTCHA enabled,
+      // ensure that this is populated with your own site key, as well as include
+      // the following script before this code:
+      //   <script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY">
+      // For more information, see: https://developers.google.com/recaptcha/docs/v3
+      //     var siteKey = "";
+      //     grecaptcha.ready(function() {
+      //         grecaptcha.execute(siteKey, {action: 'registration'}).then(function(token) {
+      //             const tokenInput = document.querySelector(".g-recaptcha-response");
+      //             if (tokenInput) {
+      //                 tokenInput.value = token;
+      //                 form.appendChild(tokenInput)
+      //                 form.submit();
+      //             }
+      //         });
+      //     });
+      // }
+
+      window.addEventListener("load", function () {
+        // Hides Employer/Brokerage field at the start
+        hideBrokerageEmployer();
+      });
+
+      const agentField = document.getElementById("agent");
+
+      // Show/Hides Brokerage/Employer field based on Yes/No selection.
+      if (agentField) {
+        document.getElementById("agent").onchange = function () {
+          hideBrokerageEmployer();
+        };
+      }
+
+      function hideBrokerageEmployer() {
+        if (agentField === null || agentField === undefined) {
+          return;
+        }
+        if (agentField.options[agentField.selectedIndex].text == "No") {
+          document.getElementById("hidden-agent").style.display = "none";
+        } else {
+          document.getElementById("hidden-agent").style.display = "table";
+        }
+      }
+
+      function validateForm(event) {
+        let validation_errors = [];
+
+        validation_errors = validation_errors.concat(validateOtherQuestions());
+        validation_errors = validation_errors.concat(
+          validateMultipleTypeQuestions()
+        );
+
+        if (validation_errors.length > 0) {
+          alert(
+            "The following fields are incomplete or have errors:\r\n" +
+              validation_errors.join("\r\n")
+          );
+          event.preventDefault();
+        }
+
+        // Prevents duplicate submissions
+        const button = document.querySelector(".template-button");
+        button.disabled = true;
+
+        // wait for a bit to re-enable the button in case some of the custom validation above failed
+        setTimeout(function () {
+          button.disabled = false;
+        }, 2000);
+      }
+
+      const form = document.querySelector(
+        "body#spark-registration-form form, form#spark-registration-form"
+      );
+      form.addEventListener("submit", function (e) {
+        validateForm(e);
+        console.log(e);
+
+        // validateReCaptcha(form);
+
+        e.preventDefault();
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NMQPKWQT"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

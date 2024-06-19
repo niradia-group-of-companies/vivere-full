@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+*:focus{
+  outline: none;
+  background: #EBE3D8;
+  color: #4E6548;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #4E6548;
+}
+
+@font-face { 
+  font-family: "main"; 
+  src: url("../src/assets/fonts/BlackMango-Medium.ttf"); 
+} 
+@font-face { 
+  font-family: "sub"; 
+  src: url("../src/assets/fonts/Muli-Bold.ttf"); 
+  src: url("../src/assets/fonts/Muli.ttf"); 
+  src: url("../src/assets/fonts/Muli-Light.ttf"); 
+  src: url("../src/assets/fonts/Muli-LightItalic.ttf"); 
+  src: url("../src/assets/fonts/Muli-Light.ttf"); 
+}
+@font-face { 
+  font-family: "quote"; 
+  src: url("../src/assets/fonts/HauteCouture-Regular.woff"); 
+}
+@font-face { 
+  font-family: "pluto"; 
+  src: url("../src/assets/fonts/PlutoSansLight.otf"); 
+}
+
+
+#base path {
+  fill: #9e5330;
+}
+
+#mask path {
+  fill:none; 
+  stroke:#ffffff;
+  stroke-width:10px; 
+  stroke-linecap:round; 
+  stroke-linejoin:round; 
+}
