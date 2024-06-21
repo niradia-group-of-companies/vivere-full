@@ -4,7 +4,7 @@ import { Nav } from "./common/Nav";
 export const Hero = () => {
   return (
     <>
-      <div className="w-full h-screen relative home-hero text-th_ivory bg-local">
+      <div className="w-full h-screen min-h-[950px] relative home-hero text-th_ivory bg-local">
         <Nav />
         <div className="absolute right-0 top-1/2 z-50 bg-th_green w-1/2 h-full home-hero-heading-section">
           <div className="absolute right-[13%] top-[15%]">
@@ -46,7 +46,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-screen max-h-[50vh] relative home-section-one text-th_ivory object-fill"></div>
+      <div className="w-full h-screen max-h-[50vh] min-h-[475px] relative home-section-one text-th_ivory object-fill"></div>
     </>
   );
 };

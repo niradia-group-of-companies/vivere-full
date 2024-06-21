@@ -2,7 +2,7 @@ import Authentically from "./Authentically";
 
 export const HomeSectionThree = () => {
   return (
-    <div className="w-full h-screen max-h-[100vh] relative home-section-three flex justify-center py-20">
+    <div className="w-full h-screen max-h-[100vh] min-h-[950px] relative home-section-three flex justify-center py-20">
       <div class="section-three-left py-48 flex-1  basis-1/3 flex flex-col justify-center items-center">
         <div>
           <h3 className="text-th_green text-6xl font-semibold font-main tracking-wider mb-20">
@@ -20,7 +20,7 @@ export const HomeSectionThree = () => {
 
           <button
             className="w-fit bg-transparent border border-th_brown
-       text-th_brown hover:bg-th_gray py-3 lg:py-3 px-9 
+       text-th_brown hover:bg-th_lightbrown py-3 lg:py-3 px-9 
        lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer"
           >
             EXPLORE INTERIORS

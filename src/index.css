@@ -8,8 +8,6 @@
 
 *:focus {
   outline: none;
-  background: #ebe3d8;
-  color: #4e6548;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
