@@ -19,7 +19,11 @@ export default {
       },
       backgroundImage: {
         solterra: "url('/logos/footer_bg.svg')",
-        vivere: "url('/logos/FooterVivereLogo.png')",
+        vivere: "url('/logos/FooterVivereLogo.svg')",
+      },
+      scale: {
+        250: "2.50",
+        200: "2.00",
       },
     },
   },

@@ -51,3 +51,31 @@ input:-webkit-autofill:active {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+.home-hero { 
+  background: url(img/home-hero.png) no-repeat;
+}
+
+.home-hero-heading-section {
+  clip-path: polygon(100% 0, 100% 50%, 80% 100%, 0% 100%, 40% 0);
+}
+
+.home-hero-heading-section-1 {
+  clip-path: polygon(20% 0%, 100% 0, 78% 100%, 0% 100%);
+}
+
+
+.home-section-one {
+  background: url(img/home-section-1.png) no-repeat;
+}
+
+.home-section-two {
+  background: url(img/home-section-2.png) no-repeat;
+  background-position: left;
+}
+
+.home-section-three-right {
+  background: url(img/home-section-3.jpg) no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%);
+  background-size: cover;
+}
