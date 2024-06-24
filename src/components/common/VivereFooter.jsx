@@ -7,26 +7,74 @@ import {
 
 export const VivereFooter = () => {
   return (
-    <div className="bg-th_green text-th_ivory p-8">
+    <div
+      className="bg-th_green text-th_ivory 
+    xl:p-8"
+    >
       <div></div>
-      <div className="flex">
-        <div className="basis-1/5 px-20">
+      <div
+        className="flex flex-col 
+      xl:flex-row"
+      >
+        <div
+          className="basis-1/5 px-20 hidden 
+        xl:block"
+        >
           <img
             src="/logos/Vivere Secondary - White.png"
             alt="leaf_background_image"
             className="h-[220px] object-contain"
           />
         </div>
-        <div className="basis-4/5 flex justify-around">
-          <ul className="flex flex-col gap-2 text-xl p-12">
-            <li className="border-b-2 pb-1 w-48">LOCATION</li>
-            <li className="border-b-2 pb-1 w-48">INTERIORS</li>
-            <li className="border-b-2 pb-1 w-48">EXTERIORS</li>
-            <li className="border-b-2 pb-1 w-48">FLOORPLANS</li>
-            <li className="border-b-2 pb-1 w-48">AMENITIES</li>
-            <li className="border-b-2 pb-1 w-48">DEVELOPER</li>
+        <div
+          className="basis-4/5 flex justify-center flex-col 
+        xl:flex-row xl:justify-around"
+        >
+          <ul
+            className="flex flex-col gap-2 text-xl p-8
+          xl:p-12"
+          >
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              LOCATION
+            </li>
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              INTERIORS
+            </li>
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              EXTERIORS
+            </li>
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              FLOORPLANS
+            </li>
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              AMENITIES
+            </li>
+            <li
+              className="border-b-2 pb-1 border-th_ivory w-11/12
+            xl:w-64"
+            >
+              DEVELOPER
+            </li>
           </ul>
-          <div className="flex flex-col gap-2 text-xl p-12">
+          <div
+            className="flex flex-col gap-2 text-xl px-8 py-4
+          xl:p-12"
+          >
             <div className="pb-5">
               <h4 className="pb-5">Presentation Center</h4>
               <p>
@@ -46,8 +94,14 @@ export const VivereFooter = () => {
               <p>info@viverebysolterra.ca</p>
             </div>
           </div>
-          <div className="flex flex-col gap-2 text-xl p-12 justify-between">
-            <div className="relative right-10">
+          <div
+            className="flex flex-col gap-2 text-xl px-8 py-4 justify-between 
+          xl:p-12"
+          >
+            <div
+              className="relative mb-10
+            xl:right-10"
+            >
               <h4 className="pb-5">Vivere Location</h4>
               <p>
                 15202 Guildford Drive, <br />
@@ -56,7 +110,10 @@ export const VivereFooter = () => {
               </p>
             </div>
             <div>
-              <div className="flex text-th_brown text-4xl justify-around items-center pb-4 gap-3">
+              <div
+                className="flex text-th_brown text-4xl items-center pb-4 gap-10 justify-start
+              xl:justify-around"
+              >
                 <a
                   href="https://facebook.com/solterradev"
                   className=""

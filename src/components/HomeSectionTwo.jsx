@@ -1,6 +1,9 @@
 export const HomeSectionTwo = () => {
   return (
-    <div className="w-full h-screen max-h-[50vh] min-h-[475px] relative home-section-two flex flex-col justify-center p-24">
+    <div
+      className="w-full h-screen max-h-[50vh] min-h-[475px] relative home-section-two flex flex-col justify-center p-10 
+    xl:p-24"
+    >
       <div className="relative">
         <h3 className="text-th_green text-4xl font-semibold tracking-wider relative top-10">
           LIVE
@@ -20,19 +23,27 @@ export const HomeSectionTwo = () => {
           </svg>
         </div>
       </div>
-      <p className="text-th_green mb-5 ml-10">
+      <p
+        className="text-th_green mb-5 text-center 
+      xl:ml-10 xl:text-start"
+      >
         Vivere's prime location near Highway 1 provides seamless access to both
         <br />
         the natural beauty of the Fraser River and surrounding communities.
       </p>
 
-      <button
-        className="w-fit bg-transparent border border-th_brown ml-10
-       text-th_brown hover:bg-th_lightbrown py-3 lg:py-3 px-9 
-       lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer"
+      <div
+        className="flex justify-center xl:justify-start 
+      xl:ml-10"
       >
-        EXPLORE LOCATION
-      </button>
+        <button
+          className="w-fit bg-transparent border border-th_brown
+       text-th_brown hover:bg-th_lightbrown py-3 lg:py-3 px-9 
+       lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer text-center"
+        >
+          EXPLORE LOCATION
+        </button>
+      </div>
     </div>
   );
 };
