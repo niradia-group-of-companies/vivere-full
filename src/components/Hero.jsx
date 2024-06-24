@@ -12,7 +12,7 @@ export const Hero = () => {
         >
           <div
             className="absolute right-[4%] top-[15%]
-            xl:right-[13%] xl:top-[15%]"
+            xl:right-[9%] xl:top-[15%]"
           >
             <h2
               className="bold font-main flex flex-col gap-2 mb-5 text-2xl
@@ -32,7 +32,7 @@ export const Hero = () => {
           </div>
           <div
             className="absolute right-[21%] top-[60%] 
-          xl:right-[26%] xl:top-[60%]"
+          xl:right-[17%] xl:top-[58%]"
           >
             <h2
               className="bold font-main text-2xl mb-5
