@@ -4,7 +4,12 @@ export const HomeSectionTwo = () => {
       className="w-full h-screen max-h-[50vh] min-h-[475px] relative home-section-two flex flex-col justify-center p-10 
     xl:p-24"
     >
-      <div className="relative">
+      <div
+        className="relative
+      sm:m-auto
+      md:my-5
+      xl:m-0"
+      >
         <h3 className="text-th_green text-4xl font-semibold tracking-wider relative top-10">
           LIVE
         </h3>

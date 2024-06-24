@@ -1,5 +1,3 @@
-import Authentically from "./Authentically";
-
 export const HomeSectionThree = () => {
   return (
     <div

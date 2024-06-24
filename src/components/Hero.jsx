@@ -12,11 +12,15 @@ export const Hero = () => {
         >
           <div
             className="absolute right-[4%] top-[15%]
-            xl:right-[9%] xl:top-[15%]"
+            xl:right-[9%] xl:top-[15%]
+            sm:right-[8%] sm:top-[15%]
+            md:right-[10%]"
           >
             <h2
               className="bold font-main flex flex-col gap-2 mb-5 text-2xl
-            xl:text-5xl xl:gap-4"
+            xl:text-5xl xl:gap-4
+            sm:text-3xl
+            md:text-5xl"
             >
               <span>North Guildford's</span>
               <span>First Residential</span>
@@ -24,7 +28,9 @@ export const Hero = () => {
             </h2>
             <p
               className="semi-bold flex flex-col text-xs
-            xl:text-xl"
+            xl:text-xl
+            sm:text-lg
+            md:text-xl"
             >
               <span>Nestled in North GuildFord, Vivere will be the</span>
               <span>first High-Rise to Emerge Here</span>
@@ -32,20 +38,30 @@ export const Hero = () => {
           </div>
           <div
             className="absolute right-[21%] top-[60%] 
-          xl:right-[17%] xl:top-[58%]"
+          xl:right-[17%] xl:top-[58%]
+          sm:right-[27%] sm:top-[59%]
+          md:right-[17%] md:top-[58%]"
           >
             <h2
               className="bold font-main text-2xl mb-5
-              xl:text-5xl xl:mb-10 "
+              xl:text-5xl xl:mb-10
+              sm:text-3xl
+              md:text-5xl"
             >
               /Vi.ve.re/
             </h2>
-            <p className="semi-bold flex flex-col text-lg mb-4 xl:text-xl xl:mb-4">
+            <p
+              className="semi-bold flex flex-col text-lg mb-4 
+            xl:text-xl xl:mb-4
+            md:text-xl"
+            >
               NOUN - TO LIVE
             </p>
             <p
               className="text-xs w-[250px] mb-2 
-            xl:text-base xl:w-[500px]"
+            xl:text-base xl:w-[500px]
+            sm:text-sm sm:w-[300px]
+            md:text-base md:w-[500px]"
             >
               Vivere by Solterra embodies a life of enrichment and authenticity.
               Drawing inspiration from the heart of Italian culture, it
@@ -54,7 +70,9 @@ export const Hero = () => {
             </p>
             <p
               className="text-xs w-[250px] mb-2 
-            xl:text-base xl:w-[500px]"
+            xl:text-base xl:w-[500px]
+            sm:text-sm sm:w-[300px]
+            md:text-base md:w-[500px]"
             >
               A home at Vivere offers you a sanctuary of your own, with a list
               of thoughtfully curated amenities tailored for your ease and
