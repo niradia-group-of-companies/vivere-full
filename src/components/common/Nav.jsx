@@ -29,16 +29,3 @@ export const Nav = () => {
     </>
   );
 };
-
-{
-  /* <div className="w-full h-full flex justify-end items-center pt-10">
-<a
-  className="inline-block bg-th_brown text-th_ivory hover:bg-th_gray -skew-x-[20deg] py-2.5 lg:py-4 px-6 lg:px-12 text-sm lg:text-base font-sub cursor-pointer"
-  href="#register"
->
-  <span className="block tracking-widest font-sub skew-x-[20deg]">
-    REGISTER
-  </span>
-</a>
-</div> */
-}

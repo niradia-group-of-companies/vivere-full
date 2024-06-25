@@ -6,9 +6,9 @@ export const HomeSectionThree = () => {
     >
       <div
         class="section-three-left flex-1  basis-1/3 flex flex-col justify-center items-center 
-      xl:py-48"
+      xl:pt-64 xl:pb-20"
       >
-        <div className="p-10">
+        <div className="p-10 xl:ml-20">
           <h3
             className="text-th_green text-5xl font-semibold font-main tracking-wider text-center mb-5
           xl:mb-10 xl:text-6xl xl:text-start"
