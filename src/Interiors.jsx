@@ -1,6 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
 import { InteriorsHero } from "./components/interiors/InteriorsHero";
+import InteriorsSectionOne from "./components/interiors/InteriorsSectionOne";
+import InteriorsSectionTwo from "./components/interiors/InteriorsSectionTwo";
 import { VivereFooter } from "./components/common/VivereFooter";
 import { MobileNav } from "./components/common/mobileNav";
 import { Nav } from "./components/common/Nav";
@@ -22,6 +24,8 @@ function Interiors() {
         </p>
         <Nav />
         <InteriorsHero />
+        <InteriorsSectionOne />
+        <InteriorsSectionTwo />
         <VivereFooter />
       </div>
     </div>

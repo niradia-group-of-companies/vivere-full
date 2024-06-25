@@ -85,3 +85,9 @@ input:-webkit-autofill:active {
   background: url(img/interior-hero.jpg) no-repeat;
   background-size: cover;
 }
+
+.interiors-section-one-left {
+  background: url(img/interior-section-1.png) no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+}
