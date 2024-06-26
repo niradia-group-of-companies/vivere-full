@@ -8,7 +8,10 @@ export default function InteriorsSectionFive() {
           <h3 className="text-th_ivory text-6xl font-semibold font-main tracking-wider text-center my-10">
             Private Collection <br /> Colour Schemes
           </h3>
-          <div className="flex flex-col justify-center items-center text-th_ivory text-center w-[600px] pb-10">
+          <div
+            className="flex flex-col justify-center items-center text-th_ivory text-center pb-10
+          xl:w-[600px]"
+          >
             <p className="pb-5 text-center text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae
               id perferendis qui assumenda iste dolore voluptatibus, earum optio
@@ -31,7 +34,7 @@ export default function InteriorsSectionFive() {
               <span>FAUNA</span>
             </div>
           </div>
-          <div className="py-10 px-80">
+          <div className="py-10 xl:px-80">
             <InteriorsSlideshowPrivate />
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function InteriorsSectionFour() {
         xl:flex-row"
     >
       <div className="interiors-section-one-left flex-1 w-full relative">
-        <div className="urban-collection-start  w-1/4 h-[2px] bg-th_ivory absolute -right-[2%] top-[13%]"></div>
+        <div className="urban-collection-start w-1/4 h-[2px] bg-th_ivory absolute -right-[2%] top-[13%]"></div>
         <div className="urban-collection-end w-1/4 h-[2px] bg-th_ivory absolute -right-[2%] top-[33%]"></div>
       </div>
       <div
@@ -19,8 +19,8 @@ export default function InteriorsSectionFour() {
           >
             Private <br /> Collection
           </h3>
-          <div className="w-[500px]">
-            <p className="text-th_ivory text-start font-semibold mb-2 uppercase">
+          <div className="xl:w-[500px]">
+            <p className="text-th_ivory text-center xl:text-start font-semibold mb-2 uppercase">
               Levels 19 and 20 emcompass the sub-penthouse and penthouse
               residences that pair spectacular views iwht luxurious finishes
             </p>

@@ -12,18 +12,14 @@ const InteriorsSlideshow = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
-      partialVisibilityGutter: 40,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
     },
   };
 
@@ -35,8 +31,8 @@ const InteriorsSlideshow = () => {
         draggable={false}
         showDots={false}
         responsive={responsive}
-        infinite={true}
         autoPlaySpeed={1000}
+        infinite={true}
         keyBoardControl={true}
         transitionDuration={1000}
         containerClass="carousel-container"
@@ -51,6 +47,9 @@ const InteriorsSlideshow = () => {
         </div>
         <div>
           <img src={images[0]} />
+        </div>
+        <div>
+          <img src={images[3]} />
         </div>
       </Carousel>
       <div className="pt-5 flex gap-10 flex-col xl:flex-row">
