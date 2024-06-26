@@ -16,14 +16,16 @@ export const Hero = () => {
           </button>
         </div>
         <div
-          className="absolute z-50 right-0 top-1/2 bg-th_green h-full home-hero-heading-section min-w-[450px]
-          xl:right-0 xl:top-1/2 w-1/2 xl:h-full
+          className="absolute z-50 right-0 top-1/2 w-1/2 bg-th_green h-full home-hero-heading-section min-w-[450px]
+          xl:right-0 xl:top-1/2 xl:h-full
+          md:min-w-[900px]
           sm:min-w-[750px]"
         >
           <div
             className="absolute right-[4%] top-[15%]
             xl:right-[13%] xl:top-[15%]
-            sm:right-[8%] sm:top-[15%]"
+            sm:right-[8%] sm:top-[15%]
+            md:right-[13%] md:top-[15%]"
           >
             <h2
               className="bold font-main flex flex-col gap-2 mb-5 text-2xl
@@ -49,7 +51,7 @@ export const Hero = () => {
             className="absolute right-[21%] top-[60%] 
           xl:right-[23%] xl:top-[58%]
           sm:right-[27%] sm:top-[59%]
-          md:right-[17%] md:top-[58%]"
+          md:right-[25%] md:top-[58%]"
           >
             <h2
               className="bold font-main text-2xl mb-5

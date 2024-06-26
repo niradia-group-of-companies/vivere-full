@@ -12,13 +12,13 @@ export default function InteriorsSectionTwo() {
             className="flex flex-col justify-center items-center text-th_green text-center pb-10
           xl:w-[600px]"
           >
-            <p className="pb-5 text-center text-base">
+            <p className="px-10 pb-5 text-center text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae
               id perferendis qui assumenda iste dolore voluptatibus, earum optio
               vero? Minima eaque nesciunt pariatur cumque odio id rerum, vitae
               aut!
             </p>
-            <p className="text-center text-base">
+            <p className="px-10 text-center text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
               tempora, tenetur est exercitationem nulla a quibusdam? Ex qui,
               veniam harum quasi sit quod, totam molestiae libero unde adipisci

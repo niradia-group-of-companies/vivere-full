@@ -87,9 +87,15 @@ input:-webkit-autofill:active {
 }
 
 .interiors-section-one-left {
-  background: url(img/interior-section-1.png) no-repeat;
+  background: url(img/interior-section-1.png) no-repeat center;
   background-size: cover;
   background-position-y: 100%;
+}
+
+.interiors-section-four-left {
+  background: url(img/interior-section-4.png) no-repeat center;
+  background-size: cover;
+  background-position-y: 80%;
 }
 
 .carousel-item-padding {

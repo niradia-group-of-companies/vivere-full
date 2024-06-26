@@ -4,7 +4,7 @@ import { InteriorsHero } from "./components/interiors/InteriorsHero";
 import InteriorsSectionOne from "./components/interiors/InteriorsSectionOne";
 import InteriorsSectionTwo from "./components/interiors/InteriorsSectionTwo";
 import { VivereFooter } from "./components/common/VivereFooter";
-import { MobileNav } from "./components/common/mobileNav";
+import { MobileNav } from "./components/common/MobileNav";
 import { Nav } from "./components/common/Nav";
 import InteriorsSectionThree from "./components/interiors/InteriorsSectionThree";
 import InteriorsSectionFour from "./components/interiors/InteriorsSectionFour";

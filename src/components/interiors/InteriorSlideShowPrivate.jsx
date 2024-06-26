@@ -32,7 +32,7 @@ const InteriorsSlideshowPrivate = () => {
         transitionDuration={1000}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
-        itemClass="carousel-item-padding"
+        itemClass=""
         slidesToSlide={1}
       >
         <div>
@@ -47,8 +47,14 @@ const InteriorsSlideshowPrivate = () => {
           />
         </div>
       </Carousel>
-      <div className="pt-5 flex gap-10 flex-col xl:flex-row">
-        <p className="basis-2/3 text-th_ivory text-center xl:text-start">
+      <div
+        className="pt-5 flex gap-10 flex-col 
+      xl:flex-row"
+      >
+        <p
+          className="px-10 basis-2/3 text-th_ivory text-center 
+        xl:text-start xl:px-0"
+        >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Delectusfsdfsdfsdf enim inventore doloribus. Incidunt, fuga neque.
           Deleniti similique quam laborum nisi numquam recusandae corporis,

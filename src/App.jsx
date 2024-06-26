@@ -5,7 +5,7 @@ import { SolterraFooter } from "./components/common/SolterraFooter";
 import { VivereFooter } from "./components/common/VivereFooter";
 import HomeSectionTwo from "./components/HomeSectionTwo";
 import HomeSectionThree from "./components/HomeSectionThree";
-import { MobileNav } from "./components/common/mobileNav";
+import { MobileNav } from "./components/common/MobileNav";
 
 function App() {
   useEffect(

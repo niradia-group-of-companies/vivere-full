@@ -1,34 +1,36 @@
 export default function InteriorsSectionOne() {
   return (
     <div
-      className="w-full h-screen max-h-[100vh] min-h-[950px] relative interiors-section-one flex justify-center flex-col 
-      xl:flex-row"
+      className="w-full relative interiors-section-one flex justify-center flex-col bg-th_green
+      xl:flex-row xl:h-screen xl:max-h-[100vh] xl:min-h-[950px]"
     >
-      <div className="interiors-section-one-left flex-1 w-full relative">
-        <div className="urban-collection-start w-1/4 h-[2px] bg-th_ivory absolute -right-[2%] top-[33%]"></div>
-        <div className="urban-collection-end  w-1/4 h-[2px] bg-th_ivory absolute -right-[2%] bottom-[3%]"></div>
+      <div className="interiors-section-one-left flex-1 w-full relative hidden xl:block">
+        <div className="urban-collection-start w-1/5 h-[2px] bg-th_ivory absolute -right-[15%] top-[33%]"></div>
+        <div className="urban-collection-end  w-1/5 h-[2px] bg-th_ivory absolute -right-[15%] bottom-[3%]"></div>
       </div>
       <div
-        className="interiors-section-one-right flex-1 flex flex-col justify-center items-start bg-th_green
-        xl:pt-80"
+        className="interiors-section-one-right flex-1 flex flex-col justify-center items-center py-20
+        xl:pt-80 xl:pb-0 xl:items-start"
       >
-        <div className="p-5 xl:ml-20">
+        <div className="pl-0 xl:pl-20 w-2/3">
           <h3
-            className="text-th_ivory text-5xl font-semibold font-main tracking-wider text-center mb-5
+            className="text-th_ivory text-3xl font-semibold font-main tracking-wider text-center mb-5
             xl:text-5xl xl:text-start"
           >
             Urban <br /> Collection
           </h3>
-          <div className="xl:w-[500px]">
+          <div>
             <p
-              className="text-th_ivory font-semibold mb-2 text-center
+              className="text-th_ivory font-semibold mb-2 text-center text-sm
+            md:text-base
             xl:text-start"
             >
               FROM LEVELS 1 THROUGH 18, REVEL IN THE TIMELESS BEAUTY AND NATURAL
               BALANCE OF THE URBAN COLLECTION
             </p>
             <p
-              className="text-th_ivory pb-2 text-center text-sm
+              className="text-th_ivory pb-2 text-center text-xs
+              md:text-sm
             xl:text-start"
             >
               Drawing inspiration from the fundamental elements of nature, the
@@ -36,7 +38,8 @@ export default function InteriorsSectionOne() {
               air.
             </p>
             <p
-              className="text-th_ivory pb-2 text-center text-sm
+              className="text-th_ivory pb-2 text-center text-xs
+              md:text-sm
             xl:text-start"
             >
               This mordern collection offers two distinct colour schemes: Acqua,

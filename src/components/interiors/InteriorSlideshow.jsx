@@ -53,7 +53,10 @@ const InteriorsSlideshow = () => {
         </div>
       </Carousel>
       <div className="pt-5 flex gap-10 flex-col xl:flex-row">
-        <p className="basis-2/3 text-th_green text-center xl:text-start">
+        <p
+          className="px-10 basis-2/3 text-th_green text-center 
+        xl:text-start xl:px-0"
+        >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
           enim inventore doloribus. Incidunt, fuga neque. Deleniti similique
           quam laborum nisi numquam recusandae corporis, nulla veniam asperiores

@@ -11,10 +11,14 @@ export const InteriorsHero = () => {
             REGISTER
           </button>
         </div>
-        <div className="z-50 flex py-40 px-96 justify-end items-end h-full">
+        <div
+          className="z-50 flex h-full justify-end items-end py-20 px-24
+        xl:py-40 xl:px-96
+        sm:py-40 sm:px-48"
+        >
           <h2
-            className="bold font-main flex flex-col gap-2 mb-5
-            text-7xl xl:gap-4"
+            className="bold font-main flex flex-col gap-2 mb-5 text-7xl 
+            xl:flex-col xl:gap-4"
           >
             <span>The</span>
             <span>Homes</span>
