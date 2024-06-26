@@ -5,12 +5,12 @@ import { ThankYouText } from "./components/ThankYouText";
 import { NavWhite } from "./components/common/NavWhite";
 
 export const ThankYou = () => {
-  useEffect(
-    () =>
-      (document.title =
-        "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes - Thank You"),
-    []
-  );
+  // useEffect(
+  //   () =>
+  //     (document.title =
+  //       "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes - Thank You"),
+  //   []
+  // );
 
   return (
     <div className="bg-th_green overflow-x-hidden">

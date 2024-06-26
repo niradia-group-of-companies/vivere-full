@@ -5,12 +5,12 @@ import { NavWithoutBtn } from "./components/common/NavWithoutBtn";
 import { RegisterFormForPage } from "./components/RegisterFormForPage";
 
 export const Register = () => {
-  useEffect(
-    () =>
-      (document.title =
-        "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes - Register"),
-    []
-  );
+  // useEffect(
+  //   () =>
+  //     (document.title =
+  //       "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes - Register"),
+  //   []
+  // );
 
   return (
     <div className="bg-th_green overflow-x-hidden">
@@ -21,7 +21,6 @@ export const Register = () => {
         <NavWithoutBtn />
         <RegisterFormForPage />
         <VivereFooter />
-        <SolterraFooter />
       </div>
     </div>
   );

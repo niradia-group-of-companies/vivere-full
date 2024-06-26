@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export const VivereFooter = () => {
   return (
@@ -86,14 +87,15 @@ export const VivereFooter = () => {
                   DEVELOPER
                 </li>
               </ul>
-              <button
+              <Link
+                to="/register"
                 className="w-fit z-[200] bg-th_brown border border-th_brown relative top-[3%]
        text-th_ivory hover:bg-th_lightbrown py-3 mx-8
        xl:mx-12 lg:py-3 px-20 pl-30
        lg:px-20 text-sm lg:text-2xl font-sub cursor-pointer text-center"
               >
                 REGISTER
-              </button>
+              </Link>
             </div>
             <div
               className="flex flex-col gap-2 text-xl px-8 py-4

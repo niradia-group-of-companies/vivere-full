@@ -11,12 +11,12 @@ import InteriorsSectionFour from "./components/interiors/InteriorsSectionFour";
 import InteriorsSectionFive from "./components/interiors/InteriorsSectionFive";
 
 function Interiors() {
-  useEffect(
-    () =>
-      (document.title =
-        "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes"),
-    []
-  );
+  // useEffect(
+  //   () =>
+  //     (document.title =
+  //       "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes"),
+  //   []
+  // );
 
   return (
     <div className="bg-th_ivory overflow-x-hidden">

@@ -34,7 +34,7 @@ export default function InteriorsSectionTwo() {
               <span>ACQUA</span>
             </div>
           </div>
-          <div className="py-10 xl:px-80">
+          <div className="py-10 xl:px-40">
             <InteriorsSlideshow />
           </div>
         </div>

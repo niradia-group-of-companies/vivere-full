@@ -8,12 +8,12 @@ import HomeSectionThree from "./components/HomeSectionThree";
 import { MobileNav } from "./components/common/MobileNav";
 
 function App() {
-  useEffect(
-    () =>
-      (document.title =
-        "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes"),
-    []
-  );
+  // useEffect(
+  //   () =>
+  //     (document.title =
+  //       "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes"),
+  //   []
+  // );
 
   return (
     <div className="bg-th_ivory overflow-x-hidden">

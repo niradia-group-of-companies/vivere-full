@@ -34,7 +34,7 @@ export default function InteriorsSectionFive() {
               <span>FAUNA</span>
             </div>
           </div>
-          <div className="py-10 xl:px-80">
+          <div className="py-10 xl:px-40">
             <InteriorsSlideshowPrivate />
           </div>
         </div>
