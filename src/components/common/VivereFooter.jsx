@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const VivereFooter = () => {
   return (
@@ -60,19 +60,15 @@ export const VivereFooter = () => {
                   className="border-b-2 pb-1 border-th_ivory w-11/12
             xl:w-64"
                 >
-                  <Link to="/interiors">INTERIORS</Link>
+                  <NavLink className={"hover:text-th_brown"} to="/interiors">
+                    INTERIORS
+                  </NavLink>
                 </li>
                 <li
                   className="border-b-2 pb-1 border-th_ivory w-11/12
             xl:w-64"
                 >
                   EXTERIORS
-                </li>
-                <li
-                  className="border-b-2 pb-1 border-th_ivory w-11/12
-            xl:w-64"
-                >
-                  FLOORPLANS
                 </li>
                 <li
                   className="border-b-2 pb-1 border-th_ivory w-11/12

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Nav = () => {
   const [navbar, setNavbar] = useState(false);
@@ -24,24 +24,29 @@ export const Nav = () => {
       >
         <div
           className="w-full h-full
-        xl:flex xl:items-center xl:justify-around"
+        xl:flex xl:items-center xl:justify-between px-20"
         >
-          <Link to="/">
+          <NavLink to="/">
             <img
               src="/logos/Vivere Primary - Green.png"
               className="w-36 lg:w-52 object-contain pr-5"
               alt=""
             />
-          </Link>
+          </NavLink>
           <ul className="text-xl font-semibold gap-16 flex-row text-th_green flex">
             <li>LOCATION</li>
             <li>
-              <Link activeStyle="text-th_brown" to="/interiors">
+              <NavLink
+                className={({ isActive, isPending, isTransitioning }) =>
+                  [isActive ? "text-th_brown" : ""].join(" ") +
+                  " hover:text-th_brown"
+                }
+                to="/interiors"
+              >
                 INTERIORS
-              </Link>
+              </NavLink>
             </li>
             <li>EXTERIORS</li>
-            <li>FLOORPLANS</li>
             <li>AMENITIES</li>
             <li>DEVELOPER</li>
           </ul>

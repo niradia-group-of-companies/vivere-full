@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { TfiAlignRight, TfiClose } from "react-icons/tfi";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const MobileNav = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -39,10 +39,16 @@ export const MobileNav = () => {
         <ul className="fixed text-3xl font-semibold gap-10 flex flex-col text-th_ivory w-screen h-screen bg-th_green justify-center items-center z-[1000]">
           <li>LOCATION</li>
           <li>
-            <Link to="/interiors">INTERIORS</Link>
+            <NavLink
+              className={({ isActive, isPending, isTransitioning }) =>
+                [isActive ? "text-th_brown" : ""].join(" ")
+              }
+              to="/interiors"
+            >
+              INTERIORS
+            </NavLink>
           </li>
           <li>EXTERIORS</li>
-          <li>FLOORPLANS</li>
           <li>AMENITIES</li>
           <li>DEVELOPER</li>
         </ul>
