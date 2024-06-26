@@ -16,19 +16,21 @@ function App() {
   // );
 
   return (
-    <div className="bg-th_ivory overflow-x-hidden">
-      <div className="w-screen mx-auto max-w-[1980px]">
-        <MobileNav />
-        <p className="hidden lg:block fixed font-sub -rotate-90 origin-[50%_53%] text-xs font-bold text-th_darkgray -left-16 2xl:-left-10 bottom-40 z-[100]">
-          a quality development by solterra
-        </p>
-        <Hero />
-        <HomeSectionTwo />
-        <HomeSectionThree />
-        <SolterraFooter />
-        <VivereFooter />
+    <>
+      <div className="bg-th_ivory overflow-x-hidden">
+        <div className="w-screen mx-auto max-w-[1980px]">
+          <MobileNav />
+          <p className="hidden lg:block fixed font-sub -rotate-90 origin-[50%_53%] text-xs font-bold text-th_darkgray -left-16 2xl:-left-10 bottom-40 z-[100]">
+            a quality development by solterra
+          </p>
+          <Hero />
+          <HomeSectionTwo />
+          <HomeSectionThree />
+          <SolterraFooter />
+          <VivereFooter />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

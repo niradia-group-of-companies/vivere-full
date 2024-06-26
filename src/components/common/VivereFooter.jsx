@@ -60,7 +60,7 @@ export const VivereFooter = () => {
                   className="border-b-2 pb-1 border-th_ivory w-11/12
             xl:w-64"
                 >
-                  INTERIORS
+                  <Link to="/interiors">INTERIORS</Link>
                 </li>
                 <li
                   className="border-b-2 pb-1 border-th_ivory w-11/12

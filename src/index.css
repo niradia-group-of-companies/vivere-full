@@ -52,6 +52,7 @@ input:-webkit-autofill:active {
 
 .home-hero { 
   background: url(img/home-hero.png) no-repeat;
+  background-size: cover;
 }
 
 .home-hero-heading-section {
@@ -68,11 +69,13 @@ input:-webkit-autofill:active {
 
 .home-section-one {
   background: url(img/home-section-1.png) no-repeat;
+  background-size: cover;
 }
 
 .home-section-two {
   background: url(img/home-section-2.png) no-repeat;
   background-position: left;
+  background-size: cover;
 }
 
 .home-section-three-right {

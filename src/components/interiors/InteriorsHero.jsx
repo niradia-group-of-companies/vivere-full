@@ -4,7 +4,7 @@ export const InteriorsHero = () => {
   return (
     <>
       <div className="w-full h-screen min-h-[950px] relative interior-hero text-th_ivory bg-local">
-        <div className="absolute z-[51] -top-[2.5%] right-0">
+        <div className="absolute z-[51] top-[20%] right-0">
           <Link
             to="/register"
             className="w-fit z-[200] bg-th_brown border border-th_brown relative top-[3%]

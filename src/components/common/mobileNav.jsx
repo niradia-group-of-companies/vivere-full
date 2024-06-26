@@ -50,8 +50,8 @@ export const MobileNav = () => {
 
       <div
         className={
-          "text-th_green flex w-full justify-end pl-7 z-[999] md:pl-10 xl:hidden mx-auto max-w-[1980px] " +
-          (navbar ? "bg-th_ivory fixed" : "bg-transparent")
+          "text-th_green flex w-full justify-end pl-7 z-[999] md:pl-10 xl:hidden mx-auto max-w-[1980px] fixed " +
+          (navbar ? "bg-th_ivory" : "bg-transparent")
         }
       >
         <div className="w-full flex flex-row justify-between items-center">

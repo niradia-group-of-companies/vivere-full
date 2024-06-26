@@ -18,8 +18,8 @@ export const Nav = () => {
     <>
       <nav
         className={
-          "w-full justify-center items-center pt-8 pb-5 z-[100] xl:flex hidden mx-auto max-w-[1980px] " +
-          (navbar ? "bg-th_ivory fixed" : "bg-transparent")
+          "w-full justify-center items-center pt-8 pb-5 z-[100] xl:flex hidden mx-auto max-w-[1980px] fixed " +
+          (navbar ? "bg-th_ivory" : "bg-transparent")
         }
       >
         <div
@@ -36,7 +36,9 @@ export const Nav = () => {
           <ul className="text-xl font-semibold gap-16 flex-row text-th_green flex">
             <li>LOCATION</li>
             <li>
-              <Link to="/interiors">INTERIORS</Link>
+              <Link activeStyle="text-th_brown" to="/interiors">
+                INTERIORS
+              </Link>
             </li>
             <li>EXTERIORS</li>
             <li>FLOORPLANS</li>
