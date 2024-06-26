@@ -51,7 +51,7 @@
     <script>
       window.addEventListener("load", function () {
         // Hides spam trap
-        document.getElementById("are_you_simulated").style.display = "none";
+        // document.getElementById("are_you_simulated").style.display = "none";
 
         // set the email pattern attribute for input type email fields. it is used for email validation
         document.querySelectorAll("input[type='email']").forEach(function (el) {
@@ -217,14 +217,14 @@
       const form = document.querySelector(
         "body#spark-registration-form form, form#spark-registration-form"
       );
-      form.addEventListener("submit", function (e) {
-        validateForm(e);
-        console.log(e);
+      // form.addEventListener("submit", function (e) {
+      //   validateForm(e);
+      //   console.log(e);
 
-        // validateReCaptcha(form);
+      //   // validateReCaptcha(form);
 
-        e.preventDefault();
-      });
+      //   e.preventDefault();
+      // });
     </script>
   </head>
   <body>

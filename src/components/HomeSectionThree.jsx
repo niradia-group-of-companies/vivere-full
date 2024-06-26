@@ -5,7 +5,7 @@ export const HomeSectionThree = () => {
     xl:flex-row xl:py-20"
     >
       <div
-        class="home-section-three-left flex-1  basis-1/3 flex flex-col justify-center items-center 
+        className="home-section-three-left flex-1  basis-1/3 flex flex-col justify-center items-center 
       xl:pt-64 xl:pb-20"
       >
         <div className="p-10 xl:ml-20">
@@ -38,7 +38,7 @@ export const HomeSectionThree = () => {
           </div>
         </div>
       </div>
-      <div class="home-section-three-right flex-1 basis-2/3 w-full"></div>
+      <div className="home-section-three-right flex-1 basis-2/3 w-full"></div>
     </div>
   );
 };

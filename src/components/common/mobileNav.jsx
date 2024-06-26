@@ -33,7 +33,7 @@ export const MobileNav = () => {
           <TfiClose size={50} />
         </div>
 
-        <ul class="fixed text-3xl font-semibold gap-5 flex flex-col text-th_ivory w-screen h-screen bg-th_green justify-center items-center z-[1000]">
+        <ul className="fixed text-3xl font-semibold gap-5 flex flex-col text-th_ivory w-screen h-screen bg-th_green justify-center items-center z-[1000]">
           <li>LOCATION</li>
           <li>INTERIORS</li>
           <li>EXTERIORS</li>

@@ -14,7 +14,7 @@ export const Nav = () => {
             />
           </a>
           <ul
-            class="text-xl font-semibold gap-16 flex-row text-th_green hidden
+            className="text-xl font-semibold gap-16 flex-row text-th_green hidden
          xl:flex"
           >
             <li>LOCATION</li>

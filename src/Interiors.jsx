@@ -6,6 +6,9 @@ import InteriorsSectionTwo from "./components/interiors/InteriorsSectionTwo";
 import { VivereFooter } from "./components/common/VivereFooter";
 import { MobileNav } from "./components/common/mobileNav";
 import { Nav } from "./components/common/Nav";
+import InteriorsSectionThree from "./components/interiors/InteriorsSectionThree";
+import InteriorsSectionFour from "./components/interiors/InteriorsSectionFour";
+import InteriorsSectionFive from "./components/interiors/InteriorsSectionFive";
 
 function Interiors() {
   useEffect(
@@ -26,6 +29,9 @@ function Interiors() {
         <InteriorsHero />
         <InteriorsSectionOne />
         <InteriorsSectionTwo />
+        <InteriorsSectionThree />
+        <InteriorsSectionFour />
+        <InteriorsSectionFive />
         <VivereFooter />
       </div>
     </div>

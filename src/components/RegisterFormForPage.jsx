@@ -269,9 +269,6 @@ export const RegisterFormForPage = () => {
           </form>
         </div>
       </div>
-      {/* <div className='absolute -right-52 md:-right-24 xl:-right-20 -top-5 md:top-5 lg:-top-10'>
-          <img src="/img/slash.png" alt="leaf_background_image" className='h-[440px] lg:h-[600px] xl:h-[780px] object-contain' />
-        </div> */}
     </div>
   );
 };
