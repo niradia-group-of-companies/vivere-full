@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Nav = () => {
   const [navbar, setNavbar] = useState(false);
@@ -47,7 +47,16 @@ export const Nav = () => {
               </NavLink>
             </li>
             <li>EXTERIORS</li>
-            <li>AMENITIES</li>
+            <li>
+              <NavLink
+                className={({ isActive, isPending, isTransitioning }) =>
+                  [isActive ? "text-th_brown" : ""].join(" ")
+                }
+                to="/amenities"
+              >
+                AMENITIES
+              </NavLink>
+            </li>
             <li>DEVELOPER</li>
           </ul>
         </div>

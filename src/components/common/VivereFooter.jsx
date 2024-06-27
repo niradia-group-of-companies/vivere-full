@@ -74,7 +74,9 @@ export const VivereFooter = () => {
                   className="border-b-2 pb-1 border-th_ivory w-11/12
             xl:w-64"
                 >
-                  AMENITIES
+                  <NavLink className={"hover:text-th_brown"} to="/amenities">
+                    Amenities
+                  </NavLink>
                 </li>
                 <li
                   className="border-b-2 pb-1 border-th_ivory w-11/12

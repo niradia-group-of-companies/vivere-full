@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { TfiAlignRight, TfiClose } from "react-icons/tfi";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const MobileNav = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -49,7 +49,16 @@ export const MobileNav = () => {
             </NavLink>
           </li>
           <li>EXTERIORS</li>
-          <li>AMENITIES</li>
+          <li>
+            <NavLink
+              className={({ isActive, isPending, isTransitioning }) =>
+                [isActive ? "text-th_brown" : ""].join(" ")
+              }
+              to="/amenities"
+            >
+              AMENITIES
+            </NavLink>
+          </li>
           <li>DEVELOPER</li>
         </ul>
       </nav>
@@ -61,13 +70,13 @@ export const MobileNav = () => {
         }
       >
         <div className="w-full flex flex-row justify-between items-center">
-          <Link to="/">
+          <NavLink to="/">
             <img
               src="/logos/Vivere Primary - Green.png"
               className="w-36 lg:w-52 object-contain pr-5"
               alt=""
             />
-          </Link>
+          </NavLink>
           <div className="p-7 md:p-10 cursor-pointer" onClick={toggleHamburger}>
             <TfiAlignRight size={50} />
           </div>
