@@ -11,6 +11,9 @@ export const Register = () => {
   //       "Vivere by Solterra - North Guildford High-Rise - Surrey New Homes - Register"),
   //   []
   // );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="bg-th_green overflow-x-hidden">

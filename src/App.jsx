@@ -15,6 +15,10 @@ function App() {
   //   []
   // );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="bg-th_ivory overflow-x-hidden">

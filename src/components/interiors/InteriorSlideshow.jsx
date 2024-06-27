@@ -36,8 +36,8 @@ const InteriorsSlideshow = () => {
         keyBoardControl={true}
         transitionDuration={1000}
         containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-        itemClass="carousel-item-padding"
+        removeArrowOnDeviceType={["mobile"]}
+        itemClass="carousel-item"
       >
         <div>
           <img src={images[1]} />

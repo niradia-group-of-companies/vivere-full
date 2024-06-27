@@ -18,6 +18,10 @@ function Interiors() {
   //   []
   // );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-th_ivory overflow-x-hidden">
       <div className="w-screen mx-auto max-w-[1980px]">

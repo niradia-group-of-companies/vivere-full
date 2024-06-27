@@ -101,12 +101,21 @@ input:-webkit-autofill:active {
   background-position-y: 80%;
 }
 
-.carousel-item-padding {
+.carousel-item {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.carousel-item:not(.react-multi-carousel-item--active) {
+  opacity: 0.5;
 }
 
 .interiors-section-three-section-one {
   background: url(img/interior-section-3.jpg) no-repeat;
   background-size: cover;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

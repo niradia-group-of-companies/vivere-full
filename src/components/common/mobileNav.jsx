@@ -30,7 +30,7 @@ export const MobileNav = () => {
         }
       >
         <div
-          className="fixed text-th_ivory top-0 right-0 p-7 z-[1001] md:p-10"
+          className="fixed text-th_ivory top-0 right-0 p-7 z-[1001] md:p-10 cursor-pointer"
           onClick={toggleHamburger}
         >
           <TfiClose size={50} />
@@ -68,7 +68,7 @@ export const MobileNav = () => {
               alt=""
             />
           </Link>
-          <div className="p-7 md:p-10" onClick={toggleHamburger}>
+          <div className="p-7 md:p-10 cursor-pointer" onClick={toggleHamburger}>
             <TfiAlignRight size={50} />
           </div>
         </div>
