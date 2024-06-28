@@ -1,12 +1,8 @@
 import "./App.css";
 import { useEffect } from "react";
-import InteriorsSectionTwo from "./components/interiors/InteriorsSectionTwo";
 import { VivereFooter } from "./components/common/VivereFooter";
 import { MobileNav } from "./components/common/MobileNav";
 import { Nav } from "./components/common/Nav";
-import InteriorsSectionThree from "./components/interiors/InteriorsSectionThree";
-import InteriorsSectionFour from "./components/interiors/InteriorsSectionFour";
-import InteriorsSectionFive from "./components/interiors/InteriorsSectionFive";
 import { AmenitiesHero } from "./components/amenities/AmenitiesHero";
 import AmenitiesSectionOne from "./components/amenities/AmenitiesSectionOne";
 import AmenitiesSectionTwo from "./components/amenities/AmenitiesSectionTwo";
@@ -14,6 +10,10 @@ import AmenitiesSectionThree from "./components/amenities/AmenitiesSectionThree"
 import AmenitiesSlideshow from "./components/amenities/AmenitiesSlideshow";
 import AmenitiesSectionFour from "./components/amenities/AmenitiesSectionFour";
 import AmenitiesSectionFive from "./components/amenities/AmenitiesSectionFive";
+import AmenitiesSectionSix from "./components/amenities/AmenitiesSectionSix";
+import AmenitiesSlideShowTwo from "./components/amenities/AmenitiesSlideShowTwo";
+import AmenitiesSectionSeven from "./components/amenities/AmenitiesSectionSeven";
+import AmenitiesSectionEight from "./components/amenities/AmenitiesSectionEight";
 
 function Amenities() {
   // useEffect(
@@ -42,6 +42,10 @@ function Amenities() {
         <AmenitiesSlideshow />
         <AmenitiesSectionFour />
         <AmenitiesSectionFive />
+        <AmenitiesSectionSix />
+        <AmenitiesSlideShowTwo />
+        <AmenitiesSectionSeven />
+        <AmenitiesSectionEight />
         <VivereFooter />
       </div>
     </div>
