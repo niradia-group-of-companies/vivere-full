@@ -1,11 +1,11 @@
 export default function AmenitiesSectionEight() {
   return (
     <div
-      className="w-full h-screen max-h-[100vh] min-h-[950px] relative amenities-section-two flex justify-center py-10 flex-col 
+      className="w-full h-screen max-h-[100vh] min-h-[950px] relative amenities-section-two flex justify-center py-10 flex-col
       xl:flex-row xl:py-20"
     >
       <div className="amenities-section-eight-left flex-1 basis-1/2 w-full"></div>
-      <div className="amenities-section-eight-right flex-1 basis-1/2 flex flex-col justify-center items-start py-20 text-th_green xl:pl-10 gap-5">
+      <div className="amenities-section-eight-right flex-1 basis-1/2 flex flex-col justify-center items-center xl:items-start py-20 text-th_green xl:pl-10 gap-5">
         <div className="pl-0 xl:pl-5">
           <img src="/img/amenities-section-3-icon-1.png" />
         </div>

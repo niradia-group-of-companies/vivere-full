@@ -1,19 +1,22 @@
 export default function AmenitiesSectionTwo() {
   return (
     <div
-      className="w-full h-screen max-h-[100vh] min-h-[950px] relative amenities-section-two flex justify-center py-10 flex-col 
-    xl:flex-row xl:py-20"
+      className="w-full h-screen max-h-[50vh] min-h-[475px] relative amenities-section-two flex justify-center flex-col-reverse 
+    xl:flex-row xl:max-h-[100vh] xl:min-h-[950px] xl:py-10"
     >
       <div
-        className="amenities-section-two-left flex-1  basis-1/3 flex flex-col justify-center items-center 
-      xl:pt-64 xl:pb-20"
+        className="amenities-section-two-left flex flex-col justify-center items-center 
+      xl:pt-64 xl:pb-20 xl:flex-1 xl:basis-1/3"
       >
-        <div className="p-10 xl:ml-20">
+        <div
+          className="p-10 hidden
+        xl:ml-20 xl:block"
+        >
           <div className="mb-10">
             <h3 className="text-th_brown text-4xl font-semibold tracking-wider relative top-10">
               LIVE
             </h3>
-            <div className="text-th_brown flex relative left-6">
+            <div className="text-th_brown flex relative left-6 max-w-[325px]">
               <svg
                 width="441"
                 height="159"

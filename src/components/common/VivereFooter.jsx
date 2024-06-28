@@ -45,7 +45,7 @@ export const VivereFooter = () => {
             className="basis-3/5 flex justify-center flex-col 
         xl:flex-row xl:justify-between"
           >
-            <div>
+            <div className="flex flex-col gap-2 xl:gap-0">
               <ul
                 className="flex flex-col gap-2 text-xl p-8
           xl:p-12"
@@ -85,7 +85,7 @@ export const VivereFooter = () => {
                   DEVELOPER
                 </li>
               </ul>
-              <Link
+              <NavLink
                 to="/register"
                 className="w-fit z-[200] bg-th_brown border border-th_brown relative top-[3%]
        text-th_ivory hover:bg-th_lightbrown py-3 mx-8
@@ -93,7 +93,7 @@ export const VivereFooter = () => {
        lg:px-20 text-sm lg:text-2xl font-sub cursor-pointer text-center"
               >
                 REGISTER
-              </Link>
+              </NavLink>
             </div>
             <div
               className="flex flex-col gap-2 text-xl px-8 py-4

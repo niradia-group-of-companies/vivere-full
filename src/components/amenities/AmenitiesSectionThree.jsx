@@ -6,15 +6,18 @@ export const AmenitiesSectionThree = () => {
       className="w-full relative amenities-section-three flex justify-center flex-col
       xl:flex-row"
     >
-      <div className="amenities-section-three-left flex-1 flex flex-row justify-center items-start py-20 text-th_green xl:pl-10">
-        <div>
+      <div
+        className="amenities-section-three-left flex-1 flex flex-col justify-center items-center py-20 text-th_green 
+      xl:pl-10 xl:flex-row xl:items-start"
+      >
+        <div className="pb-5">
           <img src="/img/amenities-section-3-icon-1.png" />
         </div>
         <div className="pl-0 xl:pl-5 w-2/3">
           <p
-            className="font-semibold mb-2 text-center text-sm uppercase
+            className="font-semibold mb-2 text-center uppercase
             md:text-base
-            xl:text-start"
+            xl:text-xl xl:text-start"
           >
             Leisure
           </p>
@@ -48,12 +51,12 @@ export const AmenitiesSectionThree = () => {
           </div>
         </div>
       </div>
-      <div className="amenities-section-three-right flex-1 flex flex-col justify-center items-start py-20 text-th_green">
+      <div className="amenities-section-three-right flex-1 flex-col justify-center items-start py-20 text-th_green hidden xl:flex">
         <div className="pl-0 xl:pl-20 w-2/3">
           <p
             className="font-semibold mb-2 text-center text-sm uppercase
             md:text-base
-            xl:text-start"
+            xl:text-xl xl:text-start"
           >
             Amenities Spaces Include:
           </p>

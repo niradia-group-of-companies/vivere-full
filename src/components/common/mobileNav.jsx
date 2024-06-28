@@ -38,6 +38,16 @@ export const MobileNav = () => {
             >
               <TfiClose size={50} />
             </li>
+            <li>
+              <NavLink
+                className={({ isActive, isPending, isTransitioning }) =>
+                  [isActive ? "text-th_brown" : ""].join(" ")
+                }
+                to="/"
+              >
+                HOME
+              </NavLink>
+            </li>
             <li>LOCATION</li>
             <li>
               <NavLink

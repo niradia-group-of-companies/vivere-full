@@ -11,8 +11,8 @@ export const Hero = () => {
           <Link
             to="/register"
             className="w-fit z-[200] bg-th_brown border border-th_brown relative top-[3%]
-       text-th_ivory hover:bg-th_lightbrown py-3 lg:py-3 px-20 pl-30
-       lg:px-20 text-sm lg:text-2xl font-sub cursor-pointer text-center"
+       text-th_ivory hover:bg-th_lightbrown py-3 sm:py-3 px-20 pl-30
+        sm:text-sm md:text-2xl font-sub cursor-pointer text-center"
           >
             REGISTER
           </Link>

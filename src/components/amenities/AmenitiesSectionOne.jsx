@@ -1,11 +1,15 @@
 export default function AmenitiesSectionOne() {
   return (
     <div className="bg-th_green w-full">
-      <div className="flex justify-center flex-col items-center px-20 py-20 xl:flex-row">
+      <div
+        className="flex justify-center flex-col-reverse items-center px-20 py-20 gap-10
+      xl:flex-row"
+      >
         <div className="text-th_ivory font-sub flex-1 basis-1/2 flex justify-center items-center">
           <p
-            className="text-sm font-sub leading-none w-1/2 text-center
-           md:text-base"
+            className="text-sm font-sub text-center
+           md:text-base
+           xl:w-full xl:px-20"
           >
             The residential amenity spaces are designed to cater to various
             occasions, extending residents' home experiences. Outdoor amenities
