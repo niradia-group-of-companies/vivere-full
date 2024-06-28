@@ -18,7 +18,7 @@ export const Nav = () => {
     <>
       <nav
         className={
-          "w-full justify-center items-center pt-8 pb-5 z-[100] xl:flex hidden mx-auto max-w-[1980px] fixed " +
+          "w-full justify-center items-center pt-8 pb-5 z-[100] xl:flex hidden mx-auto max-w-[1980px] duration-300 fixed " +
           (navbar ? "bg-th_ivory" : "bg-transparent")
         }
       >
