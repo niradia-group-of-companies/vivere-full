@@ -32,7 +32,7 @@ export default function AmenitiesSectionTwo() {
             </div>
           </div>
 
-          <p className="text-th_green pb-10 text-center xl:text-start">
+          <p className="text-th_green pb-5 text-center xl:text-start">
             Step into the vast ground-level terrace, Vivere's verdant oasis,
             where nature meets community. Envision leisurely afternoons on the
             putting green, laughter-filled moments at the children's play room,
@@ -42,6 +42,16 @@ export default function AmenitiesSectionTwo() {
             kitchens and dining spaces, where residents can enjoy al fresco
             dining and culinary delights beneath the sky's expanse.
           </p>
+
+          <div className="flex justify-center xl:justify-start">
+            <button
+              className="w-fit bg-transparent border border-th_brown
+         text-th_brown py-3 lg:py-3 px-9 
+         lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer text-center"
+            >
+              DOWNLOAD FEATURES
+            </button>
+          </div>
         </div>
       </div>
       <div className="amenities-section-two-right flex-1 basis-2/3 w-full"></div>

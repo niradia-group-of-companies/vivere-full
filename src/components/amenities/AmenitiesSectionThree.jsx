@@ -40,15 +40,6 @@ export const AmenitiesSectionThree = () => {
             pariatur. Excepteur sint occaecat cupi datat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
           </p>
-          <div className="flex justify-center xl:justify-start">
-            <button
-              className="w-fit bg-transparent border border-th_brown
-         text-th_brown py-3 lg:py-3 px-9 
-         lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer text-center"
-            >
-              DOWNLOAD FEATURES
-            </button>
-          </div>
         </div>
       </div>
       <div className="amenities-section-three-right flex-1 flex-col justify-center items-start py-20 text-th_green hidden xl:flex">

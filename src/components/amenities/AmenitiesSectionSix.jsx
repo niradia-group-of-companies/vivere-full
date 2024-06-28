@@ -19,7 +19,7 @@ export default function AmenitiesSectionSix() {
             md:text-base
             xl:text-xl xl:text-start"
           >
-            Leisure
+            WEll Being
           </p>
           <h3
             className="text-3xl font-semibold font-main tracking-wider text-center mb-5
@@ -40,15 +40,6 @@ export default function AmenitiesSectionSix() {
             pariatur. Excepteur sint occaecat cupi datat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum
           </p>
-          <div className="flex justify-center xl:justify-start">
-            <button
-              className="w-fit bg-transparent border border-th_brown
-         text-th_brown py-3 lg:py-3 px-9 
-         lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer text-center"
-            >
-              DOWNLOAD FEATURES
-            </button>
-          </div>
         </div>
       </div>
       <div className="amenities-section-three-right flex-1 flex-col justify-center items-start py-20 text-th_green hidden xl:flex">
@@ -64,35 +55,42 @@ export default function AmenitiesSectionSix() {
             <li className="flex flex-col gap-2">
               <div className="flex gap-5 items-center">
                 <IoCheckmarkOutline />
-                <span className="text-2xl">Putting Greens</span>
+                <span className="text-2xl">Cold Plunge</span>
               </div>
               <div className="h-[2px] w-full bg-th_brown"></div>
             </li>
             <li className="flex flex-col gap-2">
               <div className="flex gap-5 items-center">
                 <IoCheckmarkOutline />
-                <span className="text-2xl">Outdoor Kids Play Area</span>
+                <span className="text-2xl">Hot Tub</span>
               </div>
               <div className="h-[2px] w-full bg-th_brown"></div>
             </li>
             <li className="flex flex-col gap-2">
               <div className="flex gap-5 items-center">
                 <IoCheckmarkOutline />
-                <span className="text-2xl">Bike Repair Room</span>
+                <span className="text-2xl">Sauna</span>
               </div>
               <div className="h-[2px] w-full bg-th_brown"></div>
             </li>
             <li className="flex flex-col gap-2">
               <div className="flex gap-5 items-center">
                 <IoCheckmarkOutline />
-                <span className="text-2xl">Indoor Kids Play Room</span>
+                <span className="text-2xl">Yoga and Pilates Studio</span>
               </div>
               <div className="h-[2px] w-full bg-th_brown"></div>
             </li>
             <li className="flex flex-col gap-2">
               <div className="flex gap-5 items-center">
                 <IoCheckmarkOutline />
-                <span className="text-2xl">Games Room and Pool Table</span>
+                <span className="text-2xl">Fitness Center</span>
+              </div>
+              <div className="h-[2px] w-full bg-th_brown"></div>
+            </li>
+            <li className="flex flex-col gap-2">
+              <div className="flex gap-5 items-center">
+                <IoCheckmarkOutline />
+                <span className="text-2xl">Steam Room</span>
               </div>
               <div className="h-[2px] w-full bg-th_brown"></div>
             </li>
