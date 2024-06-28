@@ -75,7 +75,7 @@ export const VivereFooter = () => {
             xl:w-64"
                 >
                   <NavLink className={"hover:text-th_brown"} to="/amenities">
-                    Amenities
+                    AMENITIES
                   </NavLink>
                 </li>
                 <li

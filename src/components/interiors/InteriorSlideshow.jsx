@@ -1,13 +1,13 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const InteriorsSlideshow = () => {
-  const images = [
-    "img/aria-1.png",
-    "img/aria-2.png",
-    "img/aria-3.png",
-    "img/aria-4.png",
-  ];
+const InteriorsSlideshow = ({ selectedTheme, ...props }) => {
+  let images = [];
+  if (selectedTheme == "aria") {
+    images = ["img/aria-3.png", "img/aria-4.png"];
+  } else {
+    images = ["img/aria-1.png", "img/aria-2.png"];
+  }
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },

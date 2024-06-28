@@ -1,6 +1,13 @@
+import { useState } from "react";
 import InteriorsSlideshow from "./InteriorSlideshow";
 
 export default function InteriorsSectionTwo() {
+  const [selected, setSelected] = useState("acqua");
+
+  const onClickSelected = (newVal) => {
+    setSelected(newVal);
+  };
+
   return (
     <div className="w-full relative interiors-section-one flex justify-center flex-col">
       <div className="interiors-section-one-right bg-transparent">
@@ -29,13 +36,33 @@ export default function InteriorsSectionTwo() {
         <div className="urban-collection-image-carousal">
           <div className="flex flex-col justify-center items-center text-th_green text-center">
             <div className="pb-5 text-center text-xl flex flex-row gap-6 justify-center items-center">
-              <span>ARIA</span>
+              <span
+                onClick={() => {
+                  onClickSelected("aria");
+                }}
+                className={
+                  "cursor-pointer hover:text-th_brown" +
+                  (selected === "aria" ? " text-th_brown" : "")
+                }
+              >
+                ARIA
+              </span>
               <span className="w-[2px] h-[22px] bg-th_green"></span>
-              <span>ACQUA</span>
+              <span
+                onClick={() => {
+                  onClickSelected("acqua");
+                }}
+                className={
+                  "cursor-pointer hover:text-th_brown" +
+                  (selected === "acqua" ? " text-th_brown" : "")
+                }
+              >
+                ACQUA
+              </span>
             </div>
           </div>
           <div className="py-10 xl:px-40">
-            <InteriorsSlideshow />
+            <InteriorsSlideshow selectedTheme={selected} />
           </div>
         </div>
       </div>

@@ -29,9 +29,9 @@ export default function InteriorsSectionFive() {
         <div className="private-collection-image-carousal">
           <div className="flex flex-col justify-center items-center text-th_ivory text-center">
             <div className="pb-5 text-center text-xl flex flex-row gap-6 justify-center items-center">
-              <span>FLORA</span>
+              <span className="cursor-pointer hover:text-th_brown">FLORA</span>
               <span className="w-[2px] h-[22px] bg-th_ivory"></span>
-              <span>FAUNA</span>
+              <span className="cursor-pointer hover:text-th_brown">FAUNA</span>
             </div>
           </div>
           <div className="py-10 xl:px-40">

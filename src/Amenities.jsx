@@ -1,7 +1,5 @@
 import "./App.css";
 import { useEffect } from "react";
-import { InteriorsHero } from "./components/interiors/InteriorsHero";
-import InteriorsSectionOne from "./components/interiors/InteriorsSectionOne";
 import InteriorsSectionTwo from "./components/interiors/InteriorsSectionTwo";
 import { VivereFooter } from "./components/common/VivereFooter";
 import { MobileNav } from "./components/common/MobileNav";
@@ -9,6 +7,13 @@ import { Nav } from "./components/common/Nav";
 import InteriorsSectionThree from "./components/interiors/InteriorsSectionThree";
 import InteriorsSectionFour from "./components/interiors/InteriorsSectionFour";
 import InteriorsSectionFive from "./components/interiors/InteriorsSectionFive";
+import { AmenitiesHero } from "./components/amenities/AmenitiesHero";
+import AmenitiesSectionOne from "./components/amenities/AmenitiesSectionOne";
+import AmenitiesSectionTwo from "./components/amenities/AmenitiesSectionTwo";
+import AmenitiesSectionThree from "./components/amenities/AmenitiesSectionThree";
+import AmenitiesSlideshow from "./components/amenities/AmenitiesSlideshow";
+import AmenitiesSectionFour from "./components/amenities/AmenitiesSectionFour";
+import AmenitiesSectionFive from "./components/amenities/AmenitiesSectionFive";
 
 function Amenities() {
   // useEffect(
@@ -30,12 +35,13 @@ function Amenities() {
           a quality development by solterra
         </p>
         <Nav />
-        <InteriorsHero />
-        <InteriorsSectionOne />
-        <InteriorsSectionTwo />
-        <InteriorsSectionThree />
-        <InteriorsSectionFour />
-        <InteriorsSectionFive />
+        <AmenitiesHero />
+        <AmenitiesSectionOne />
+        <AmenitiesSectionTwo />
+        <AmenitiesSectionThree />
+        <AmenitiesSlideshow />
+        <AmenitiesSectionFour />
+        <AmenitiesSectionFive />
         <VivereFooter />
       </div>
     </div>

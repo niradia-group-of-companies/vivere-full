@@ -115,6 +115,22 @@ input:-webkit-autofill:active {
   background-size: cover;
 }
 
+.amenities-hero {
+  background: url(img/amenities-hero.jpg) no-repeat;
+  background-size: cover;
+}
+
+.amenities-section-two-right {
+  background: url(img/amenities-section-2.png) no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%);
+  background-size: cover;
+}
+
+.amenities-section-five-left {
+  background: url(img/amenities-section-5-left.jpg) no-repeat;
+  background-size: cover;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
