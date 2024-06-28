@@ -113,9 +113,16 @@ export const VivereFooter = () => {
                   <i>Except Fridays</i>
                 </p>
               </div>
-              <div>
-                <p>604.531.8238</p>
-                <p>info@viverebysolterra.ca</p>
+              <div className="flex flex-col">
+                <a className="hover:text-th_brown" href="tel:+1604-531-8238">
+                  604.531.8238
+                </a>
+                <a
+                  className="hover:text-th_brown"
+                  href="mailto:info@viverebysolterra.ca"
+                >
+                  info@viverebysolterra.ca
+                </a>
               </div>
             </div>
             <div
