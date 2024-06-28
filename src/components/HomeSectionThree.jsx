@@ -1,3 +1,6 @@
+import { Fade } from "react-awesome-reveal";
+import { NavLink } from "react-router-dom";
+
 export const HomeSectionThree = () => {
   return (
     <div
@@ -9,32 +12,35 @@ export const HomeSectionThree = () => {
       xl:pt-64 xl:pb-20"
       >
         <div className="p-10 xl:ml-20">
-          <h3
-            className="text-th_green text-5xl font-semibold font-main tracking-wider text-center mb-5
+          <Fade cascade duration={800}>
+            <h3
+              className="text-th_green text-5xl font-semibold font-main tracking-wider text-center mb-5
           xl:mb-10 xl:text-6xl xl:text-start"
-          >
-            Savour the <br /> Joy of Living
-          </h3>
-          <p
-            className="text-th_green text-xl font-semibold mb-5 text-center 
+            >
+              Savour the <br /> Joy of Living
+            </h3>
+            <p
+              className="text-th_green text-xl font-semibold mb-5 text-center 
           xl:text-start"
-          >
-            BEGIN THE LIFE OF YOUR DREAMS
-          </p>
-          <p className="text-th_green pb-10 text-center xl:text-start">
-            More than simply a residence, Vivere is a nurturing space for
-            families and an oasis where each moment is treasured. connecting
-            residents with the joy and essence of the present in a
-            well-established, integrated community.
-          </p>
+            >
+              BEGIN THE LIFE OF YOUR DREAMS
+            </p>
+            <p className="text-th_green pb-10 text-center xl:text-start">
+              More than simply a residence, Vivere is a nurturing space for
+              families and an oasis where each moment is treasured. connecting
+              residents with the joy and essence of the present in a
+              well-established, integrated community.
+            </p>
+          </Fade>
           <div className="flex justify-center xl:justify-start">
-            <button
+            <NavLink
+              to="/interiors"
               className="w-fit bg-transparent border border-th_brown
        text-th_brown hover:bg-th_lightbrown py-3 lg:py-3 px-9 
        lg:px-10 mt-3 text-sm lg:text-base font-sub cursor-pointer text-center"
             >
               EXPLORE INTERIORS
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>
