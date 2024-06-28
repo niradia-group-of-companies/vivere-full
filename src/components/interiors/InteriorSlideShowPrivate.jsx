@@ -1,8 +1,13 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const InteriorsSlideshowPrivate = () => {
-  const images = ["img/flora-1.jpg"];
+const InteriorsSlideshowPrivate = ({ selectedTheme, ...props }) => {
+  let images = [];
+  if (selectedTheme == "flora") {
+    images = ["img/flora-1.jpg"];
+  } else {
+    images = ["img/flora-1.jpg"];
+  }
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -34,6 +39,9 @@ const InteriorsSlideshowPrivate = () => {
         removeArrowOnDeviceType={["tablet", "mobile"]}
         itemClass=""
         slidesToSlide={1}
+        afterChange={(previousSlide, { currentSlide, onMove }) => {
+          console.log(previousSlide, currentSlide, onMove);
+        }}
       >
         <div>
           <img

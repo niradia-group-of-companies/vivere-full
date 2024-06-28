@@ -202,6 +202,10 @@ export const RegisterFormForPage = () => {
                 Radio: 94.5FM - Virgin Radio
               </option>
               <option value="Solterra Email">Solterra Email</option>
+              <option value="Langley Times Advance Newspaper">
+                Langley Times Advance Newspaper
+              </option>
+              <option value="Realtor Event">Realtor Event</option>
               <option value="Other">Other</option>
             </select>
             <div className="col-start-1 col-span-1 lg:col-span-3 text-start">

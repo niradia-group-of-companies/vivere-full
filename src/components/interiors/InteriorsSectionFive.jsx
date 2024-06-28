@@ -1,6 +1,13 @@
+import { useState } from "react";
 import InteriorsSlideshowPrivate from "./InteriorSlideShowPrivate";
 
 export default function InteriorsSectionFive() {
+  const [selected, setSelected] = useState("flora");
+
+  const onClickSelected = (newVal) => {
+    setSelected(newVal);
+  };
+
   return (
     <div className="w-full relative interiors-section-one flex justify-center flex-col">
       <div className="interiors-section-one-right bg-th_darkgray">
@@ -29,13 +36,33 @@ export default function InteriorsSectionFive() {
         <div className="private-collection-image-carousal">
           <div className="flex flex-col justify-center items-center text-th_ivory text-center">
             <div className="pb-5 text-center text-xl flex flex-row gap-6 justify-center items-center">
-              <span className="cursor-pointer hover:text-th_brown">FLORA</span>
+              <span
+                onClick={() => {
+                  onClickSelected("flora");
+                }}
+                className={
+                  "cursor-pointer hover:text-th_brown" +
+                  (selected === "flora" ? " text-th_brown" : "")
+                }
+              >
+                FLORA
+              </span>
               <span className="w-[2px] h-[22px] bg-th_ivory"></span>
-              <span className="cursor-pointer hover:text-th_brown">FAUNA</span>
+              <span
+                onClick={() => {
+                  onClickSelected("fauna");
+                }}
+                className={
+                  "cursor-pointer hover:text-th_brown" +
+                  (selected === "fauna" ? " text-th_brown" : "")
+                }
+              >
+                FAUNA
+              </span>
             </div>
           </div>
           <div className="py-10 xl:px-40">
-            <InteriorsSlideshowPrivate />
+            <InteriorsSlideshowPrivate selectedTheme={selected} />
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Nav } from "./common/Nav";
+import { Fade } from "react-awesome-reveal";
 
 export const Hero = () => {
   return (
@@ -29,16 +30,18 @@ export const Hero = () => {
             sm:right-[8%] sm:top-[15%]
             md:right-[13%] md:top-[15%]"
           >
-            <h2
-              className="bold font-main flex flex-col gap-2 mb-5 text-2xl
+            <Fade triggerOnce>
+              <h2
+                className="bold font-main flex flex-col gap-2 mb-5 text-2xl
             xl:text-5xl xl:gap-4
             sm:text-3xl
             md:text-5xl"
-            >
-              <span>North Guildford's</span>
-              <span>First Residential</span>
-              <span>High Rise</span>
-            </h2>
+              >
+                <span>North Guildford's</span>
+                <span>First Residential</span>
+                <span>High Rise</span>
+              </h2>
+            </Fade>
             <p
               className="semi-bold flex flex-col text-xs
             xl:text-xl

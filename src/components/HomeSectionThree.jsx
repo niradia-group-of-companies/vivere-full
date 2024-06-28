@@ -12,7 +12,7 @@ export const HomeSectionThree = () => {
       xl:pt-64 xl:pb-20"
       >
         <div className="p-10 xl:ml-20">
-          <Fade cascade triggerOnce duration={800}>
+          <Fade cascade triggerOnce>
             <h3
               className="text-th_green text-5xl font-semibold font-main tracking-wider text-center mb-5
           xl:mb-10 xl:text-6xl xl:text-start"
